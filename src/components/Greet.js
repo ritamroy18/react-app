@@ -18,8 +18,9 @@ import React from 'react';
 // }
 
 
-
+// const Greet = ({name,heroname}) => {  //Props Destructuring
 const Greet = props => {
+    // const { name,heroname } =props;//Props Destructuring
     return (
         <div>
             <h1> Hi! {props.name} a.k.a {props.heroname}</h1>

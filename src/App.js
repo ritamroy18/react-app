@@ -5,6 +5,8 @@ import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Messages from './components/Messages';
+import Counter from './components/Counter';
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
       <Welcome name = "dgen" heroname ="Wonderman"></Welcome>
       <Hello></Hello>
       <Messages></Messages>
+      <Counter></Counter>
 
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
