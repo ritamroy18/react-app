@@ -7,6 +7,8 @@ import Hello from './components/Hello';
 import Messages from './components/Messages';
 import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
+import EventBind from './components/EventBind';
+import ClassClick from './components/ClassClick';
 
 
 function App() {
@@ -21,7 +23,8 @@ function App() {
       <Messages></Messages>
       <Counter></Counter>
       <FunctionClick></FunctionClick>
-
+      <ClassClick></ClassClick>
+      <EventBind></EventBind>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
