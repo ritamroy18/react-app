@@ -6,6 +6,7 @@ import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Messages from './components/Messages';
 import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Hello></Hello>
       <Messages></Messages>
       <Counter></Counter>
+      <FunctionClick></FunctionClick>
 
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
