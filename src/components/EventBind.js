@@ -26,7 +26,7 @@ import React, { Component } from 'react'
         })
         console.log(this);
     }
-
+//this keyword is undefined in eventhadler ..for that reason event binding is necessary in class component
     render() {
         return (
             <div>

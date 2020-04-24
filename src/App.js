@@ -9,6 +9,10 @@ import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
 import EventBind from './components/EventBind';
 import ClassClick from './components/ClassClick';
+import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
+import LifeCycleOne from './components/LifeCycleOne';
 
 
 function App() {
@@ -25,6 +29,10 @@ function App() {
       <FunctionClick></FunctionClick>
       <ClassClick></ClassClick>
       <EventBind></EventBind>
+      <ParentComponent></ParentComponent>
+      <UserGreeting></UserGreeting>
+      <NameList></NameList>
+      <LifeCycleOne></LifeCycleOne>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

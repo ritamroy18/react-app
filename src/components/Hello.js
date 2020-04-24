@@ -7,6 +7,7 @@ const Hello = () => {
   // return (
   //   <div className="react"><h1>Hi! React</h1></div>  //jsx
   // )
+  
    //without jsx
   // return  React.createElement('div',null,React.createElement('h1',null,'Hi! React')
   

@@ -23,6 +23,8 @@ const Greet = props => {
     // const { name,heroname } =props;//Props Destructuring
     return (
         <div>
+                        {/* <h1> Hi! {name} a.k.a {heroname}</h1> */}
+
             <h1> Hi! {props.name} a.k.a {props.heroname}</h1>
             {props.children}
         </div>
