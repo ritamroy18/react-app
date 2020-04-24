@@ -12,7 +12,9 @@ import ChildComponent from './ChildComponent'
      }
 
      greetParent(childName){
+        // alert(`HELLO ${this.state.parentName}`)
          alert(`HELLO ${this.state.parentName}from ${childName}`)
+         
      }
      
     render() {

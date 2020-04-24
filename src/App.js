@@ -13,6 +13,9 @@ import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import LifeCycleOne from './components/LifeCycleOne';
+import StyleSheet from './components/StyleSheet';
+import Inlines from './components/Inlines';
+import Form from './components/Form';
 
 
 function App() {
@@ -33,6 +36,9 @@ function App() {
       <UserGreeting></UserGreeting>
       <NameList></NameList>
       <LifeCycleOne></LifeCycleOne>
+      <StyleSheet primary = {true}></StyleSheet>
+      <Inlines></Inlines>
+      <Form></Form>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

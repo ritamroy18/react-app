@@ -23,7 +23,8 @@ function NameList() {
 
    ]
 //    const nameList = names.map(name=> <h2>{name}</h2>)
-   const personList = person.map(person=> (<h2>I am {person.name}.My age is  {person.age}</h2>))
+   const personList = person.map(person => (<h2 key = {person.id}>I am {person.name}.My age is  {person.age}</h2>))
+   
 //    return <div>{nameList}</div>
    return <div>{personList}</div>
 
