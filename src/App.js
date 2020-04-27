@@ -16,6 +16,11 @@ import LifeCycleOne from './components/LifeCycleOne';
 import StyleSheet from './components/StyleSheet';
 import Inlines from './components/Inlines';
 import Form from './components/Form';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
+// import PureComp from './components/PureComp';
+import ParentComp from './components/ParentComp';
+import RefsDemo from './components/RefsDemo';
 
 
 function App() {
@@ -39,6 +44,12 @@ function App() {
       <StyleSheet primary = {true}></StyleSheet>
       <Inlines></Inlines>
       <Form></Form>
+      <FragmentDemo></FragmentDemo>
+      <Table></Table>
+      {/* <PureComp></PureComp> */}
+      <ParentComp></ParentComp>
+      <RefsDemo></RefsDemo>
+
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
