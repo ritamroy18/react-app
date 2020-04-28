@@ -6,6 +6,10 @@ import React, { Component } from 'react'
          this.inputRef = React.createRef()
 
      }
+
+     focusInput(){
+         this.inputRef.current.focus()
+     }
      
     render() {
         return (

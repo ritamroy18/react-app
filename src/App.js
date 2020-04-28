@@ -23,6 +23,7 @@ import ParentComp from './components/ParentComp';
 import RefsDemo from './components/RefsDemo';
 import FocusInput from './components/FocusInput';
 import FRParentInput from './components/FRParentInput';
+import PortalDemo from './components/PortalDemo';
 
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
       <RefsDemo />
       <FocusInput />
       <FRParentInput />
+      <PortalDemo></PortalDemo>
 
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
